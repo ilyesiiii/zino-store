@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: laravel-app
+    env: docker
+    plan: free
+    repo: https://github.com/ilyesiiii/zino-store.git
+    dockerfilePath: ./Dockerfile
+    branch: main
